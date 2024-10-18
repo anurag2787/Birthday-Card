@@ -50,27 +50,27 @@ body{
     width: 400px;
     height: 400px;
     border: 8px solid white;
-    background-image: url(gift.png);
+    background-image: url(./asset/gift.png);
     background-size: cover;
 }
 
 #gift1-wrap:hover{
-    background-image: url(happy.gif);
+    background-image: url(./asset/happy.gif);
 }
 
 
 #gift2-wrap:hover{
-    background-image: url(hot.webp);
+    background-image: url(./asset/hot.webp);
 }
 
 #gift3-wrap:hover{
-    background-image: url(genius.webp);
+    background-image: url(./asset/genius.webp);
     background-size: cover;
     
 }
 
 #gift4-wrap:hover{
-    background-image: url(cheers.webp);
+    background-image: url(./asset/cheers.webp);
     background-size: cover;
 }
 .gift-end-wrap{
@@ -81,6 +81,17 @@ body{
     width: 400px;
     height: 200px;
     border: 8px solid white;
-    background-image: url(gift.png);
+    background-image: url(./asset/gift.png);
     background-size: cover;
+}
+
+@media only screen and (max-width:1100px){
+    .gift-wrap{
+        width: 250px;
+        height: 200px;
+    }
+    .gift-end-wrap{
+        width: 300px;
+        height: 200px;
+    }
 }
