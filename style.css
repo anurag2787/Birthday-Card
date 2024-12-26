@@ -1,11 +1,11 @@
 body{
     text-align: center;
-    color: #fff;
+    color: #fb8557;
     font-family: 'Happy Monkey',cursive;
     font-size: 13px;
     /* background: linear-gradient(#a2d2ff,pink) */
     /* background-color: black; */
-    background: linear-gradient(#a2d2ff,pink,black);
+    background: linear-gradient(#a2d2ff,pink,rgb(93, 93, 93) );
 }
 .title{
     margin-top: 60px;
@@ -52,6 +52,7 @@ body{
     border: 8px solid white;
     background-image: url(./asset/gift.png);
     background-size: cover;
+    transition: background-image ease-in 0.3s;
 }
 
 #gift1-wrap:hover{
@@ -81,6 +82,7 @@ body{
     width: 400px;
     height: 200px;
     border: 8px solid white;
+    transition: background-image ease-in 0.3s;
     background-image: url(./asset/gift.png);
     background-size: cover;
 }
@@ -94,4 +96,35 @@ body{
         width: 300px;
         height: 200px;
     }
+}
+.message{
+    width: 350px;
+    height: 35px;
+    margin-right: 0px;
+    border-top-left-radius: 17.5px;
+    border-bottom-left-radius: 17.5px;
+    border: 0px;
+    font-family: 'Happy Monkey',cursive;
+    font-size: 13px;
+    padding-left: 2px;
+    transition: border ease-in 0.3s;
+}
+
+.send{
+    width: 60px;
+    height: 37px;
+    border: 0px;
+    margin-left: -3px;
+    border-top-right-radius: 20.5px;
+    border-bottom-right-radius: 20.5px;
+    background-color: #4ca8fe;
+    transition: background-color ease-in 0.3s;
+    font-family: 'Happy Monkey',cursive;
+    font-size: 13px;
+}
+.send:hover{
+    background-color: #a2d2ff;
+}
+h1{
+    text-shadow: 2px 2px 1px black;
 }
